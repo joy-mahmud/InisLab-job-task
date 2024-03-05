@@ -1,6 +1,9 @@
 
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Trusted from './components/Trusted'
+import Collaborate from './components/Collaborate'
+
 
 function App() {
 
@@ -9,6 +12,8 @@ function App() {
     <>
      <Navbar></Navbar>
      <Hero></Hero>
+     <Trusted></Trusted>
+     <Collaborate></Collaborate>
     </>
   )
 }
