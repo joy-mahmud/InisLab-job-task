@@ -16,7 +16,7 @@ const Hero = () => {
 
                     <div className="space-y-2 mb-12">
                         <input type="text" className="w-full border-2 mt-5 px-5 py-3 rounded-[50px] text-xl" placeholder="Enter your work email" name="" id="" />
-                        <button className="flex items-center justify-center text-xl w-full bg-[#4262FF] text-white px-6 py-[16px] gap-3 rounded-[50px]"><span>Sign up free</span> <FaLongArrowAltRight className="text-xl mt-2" /></button>
+                        <button className="flex items-center trnasition-all duration-500 hover:bg-[#2B3E9E] justify-center text-xl w-full bg-[#4262FF] text-white px-6 py-[16px] gap-3 rounded-[50px]"><span>Sign up free</span> <FaLongArrowAltRight className="text-xl mt-2" /></button>
                         <p className="text-[#8E8CA5]">
                             Collaborate with your team within minutes
                         </p>

@@ -3,6 +3,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoGlobeOutline } from "react-icons/io5";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Navbar = () => {
+
     return (
         <div className="py-5 border-b flex items-center justify-between px-10">
             <div className="flex items-center gap-4 ">
@@ -21,7 +22,7 @@ const Navbar = () => {
                     <li>Contact</li>
                     <li>Sales</li>
                     <li>Login</li>
-                    <li><button className="flex items-center bg-[#4262FF] text-white px-6 py-[16px] gap-3 rounded-[50px]"><span>Sign up free</span> <FaLongArrowAltRight className="text-xl mt-1" /></button></li>
+                    <li><button className="flex items-center bg-[#4262FF] trnasition-all duration-500 hover:bg-[#2B3E9E] text-white px-6 py-[16px] gap-3 rounded-[50px]"><span>Sign up free</span> <FaLongArrowAltRight className="text-xl mt-1" /></button></li>
                 </ul>
             </div>
         </div>

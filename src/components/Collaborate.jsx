@@ -27,7 +27,7 @@ const Collaborate = () => {
                     </div>
                 </div>
                 <div className="flex justify-center mt-12">
-                    <button className="flex items-center bg-[#4262FF] text-white px-8 py-[16px] gap-3 rounded-[50px]"><span>Sign up free</span> <FaLongArrowAltRight className="text-xl mt-1" /></button>
+                    <button className="flex items-center trnasition-all duration-500 hover:bg-[#2B3E9E] bg-[#4262FF] text-white px-8 py-[16px] gap-3 rounded-[50px]"><span>Sign up free</span> <FaLongArrowAltRight className="text-xl mt-1" /></button>
                 </div>
             </div>
         </div>
